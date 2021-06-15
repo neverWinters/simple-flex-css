@@ -1,4 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
 
+header, main, footer{
+    flex-shrink: 0;
+}
+
+header > nav.navbar{
+    background: blue;
+    height: 4rem;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer.footer{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: aquamarine;
+}
 
 main.container{
     width: calc(100vw - 20px);
@@ -80,4 +105,3 @@ main.container{
 .container__row > .row__flex-col-1{
     width: calc((100% / 12) - 5px);
 }
-
