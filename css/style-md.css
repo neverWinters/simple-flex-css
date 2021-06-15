@@ -1,0 +1,51 @@
+main.container{
+    width: calc(100vw - 15%);
+}
+
+.container__row > .row__flex-col-12--md{
+    width: calc(100% - 5px);
+}
+
+.container__row > .row__flex-col-11--md{
+    width: calc((100% / 12) * 11 - 5px);
+}
+
+.container__row > .row__flex-col-10--md{
+    width: calc((100% / 12) * 10 - 5px);
+}
+
+.container__row > .row__flex-col-9--md{
+    width: calc((100% / 12) * 9 - 5px);
+}
+
+.container__row > .row__flex-col-8--md{
+    width: calc((100% / 12) * 8 - 5px);
+}
+
+.container__row > .row__flex-col-7--md{
+    width: calc((100% / 12) * 7 - 5px);
+}
+
+.container__row > .row__flex-col-6--md{
+    width: calc((100% / 12) * 6 - 5px);
+}
+
+.container__row > .row__flex-col-5--md{
+    width: calc((100% / 12) * 5 - 5px);
+}
+
+.container__row > .row__flex-col-4--md{
+    width: calc((100% / 12) * 4 - 5px);
+}
+
+.container__row > .row__flex-col-3--md{
+    width: calc((100% / 12) * 3 - 5px);
+}
+
+.container__row > .row__flex-col-2--md{
+    width: calc((100% / 12) * 2 - 5px);
+}
+
+.container__row > .row__flex-col-1--md{
+    width: calc((100% / 12) - 5px);
+}
