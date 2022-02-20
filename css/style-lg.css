@@ -1,20 +1,47 @@
+/* Start of the Navbar CSS */
+
+nav.navbar > section.navbar-brand {
+    flex-grow: 0.45;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav.navbar > section.navbar-links {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav.navbar > section.navbar-form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* End of the Navbar CSS */
+
+/* Start of the Container CSS */
+
 main.container{
     width: calc(100vw - 25%);
 }
 
-.container__row > .row__flex-col-12--md{
+.container__row > .row__flex-col-12--lg{
     width: calc(100% - 5px);
 }
 
-.container__row > .row__flex-col-11--md{
+.container__row > .row__flex-col-11--lg{
     width: calc((100% / 12) * 11 - 5px);
 }
 
-.container__row > .row__flex-col-10--md{
+.container__row > .row__flex-col-10--lg{
     width: calc((100% / 12) * 10 - 5px);
 }
 
-.container__row > .row__flex-col-9--md{
+.container__row > .row__flex-col-9--lg{
     width: calc((100% / 12) * 9 - 5px);
 }
 
@@ -49,3 +76,5 @@ main.container{
 .container__row > .row__flex-col-1--lg{
     width: calc((100% / 12) - 5px);
 }
+
+/* End of the Container CSS */

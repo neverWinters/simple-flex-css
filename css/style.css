@@ -1,3 +1,5 @@
+/* Start of the Body tag CSS */
+
 body{
     display: flex;
     flex-direction: column;
@@ -5,25 +7,52 @@ body{
     height: 100%;
 }
 
+/* End of the Body tag CSS */
+
+/* Start of the principal tags general CSS */
+
 header, main, footer{
     flex-shrink: 0;
 }
 
+/* End of the principal tags general CSS */
+
+/* Start of the Navbar CSS */
+
 header > nav.navbar{
     background: blue;
-    height: 4rem;
+    min-height: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+    justify-content: space-between;
 }
+
+nav.navbar > section.navbar-brand {
+    display: none;
+}
+
+nav.navbar > section.navbar-links {
+    display: none;
+}
+
+nav.navbar > section.navbar-form {
+    display: none;
+}
+
+/* End of the Navbar CSS */
+
+/* Start of the Main tag CSS */
 
 main{
     flex-grow: 1;
 }
 
-footer.footer{
-    display: flex;
-    flex-direction: row;
-    height: 4rem;
-    background-color: aquamarine;
-}
+/* End of the Main tag CSS */
+
+/* Start of the Container CSS */
 
 main.container{
     width: calc(100vw - 20px);
@@ -34,15 +63,6 @@ main.container{
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto;
-}
-
-.container > .container__row{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-grow: 1;
-    padding: 5px;
 }
 
 .container > .container__row{
@@ -105,3 +125,16 @@ main.container{
 .container__row > .row__flex-col-1{
     width: calc((100% / 12) - 5px);
 }
+
+/* End of the Container CSS */
+
+/* Start of the Footer CSS */
+
+footer.footer{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: aquamarine;
+}
+
+/* End of the Footer CSS */
