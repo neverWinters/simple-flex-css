@@ -27,51 +27,51 @@ main.container{
 }
 
 .container__row > .row__flex-col-12--md{
-    width: calc(100% - 5px);
+    width: calc(100% - 4px);
 }
 
 .container__row > .row__flex-col-11--md{
-    width: calc((100% / 12) * 11 - 5px);
+    width: calc((100% / 12) * 11 - 4px);
 }
 
 .container__row > .row__flex-col-10--md{
-    width: calc((100% / 12) * 10 - 5px);
+    width: calc((100% / 12) * 10 - 4px);
 }
 
 .container__row > .row__flex-col-9--md{
-    width: calc((100% / 12) * 9 - 5px);
+    width: calc((100% / 12) * 9 - 4px);
 }
 
 .container__row > .row__flex-col-8--md{
-    width: calc((100% / 12) * 8 - 5px);
+    width: calc((100% / 12) * 8 - 4px);
 }
 
 .container__row > .row__flex-col-7--md{
-    width: calc((100% / 12) * 7 - 5px);
+    width: calc((100% / 12) * 7 - 4px);
 }
 
 .container__row > .row__flex-col-6--md{
-    width: calc((100% / 12) * 6 - 5px);
+    width: calc((100% / 12) * 6 - 4px);
 }
 
 .container__row > .row__flex-col-5--md{
-    width: calc((100% / 12) * 5 - 5px);
+    width: calc((100% / 12) * 5 - 4px);
 }
 
 .container__row > .row__flex-col-4--md{
-    width: calc((100% / 12) * 4 - 5px);
+    width: calc((100% / 12) * 4 - 4px);
 }
 
 .container__row > .row__flex-col-3--md{
-    width: calc((100% / 12) * 3 - 5px);
+    width: calc((100% / 12) * 3 - 4px);
 }
 
 .container__row > .row__flex-col-2--md{
-    width: calc((100% / 12) * 2 - 5px);
+    width: calc((100% / 12) * 2 - 4px);
 }
 
 .container__row > .row__flex-col-1--md{
-    width: calc((100% / 12) - 5px);
+    width: calc((100% / 12) - 4px);
 }
 
 /* End of the Container CSS */

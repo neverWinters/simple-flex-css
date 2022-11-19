@@ -71,7 +71,7 @@ main.container{
     flex-wrap: wrap;
     flex-direction: row;
     flex-grow: 1;
-    padding: 5px;
+    padding: 4px;
 }
 
 .container__row > .row__flex-col{
@@ -79,51 +79,63 @@ main.container{
 }
 
 .container__row > .row__flex-col-12{
-    width: calc(100% - 5px);
+    width: calc(100% - 4px);
 }
 
 .container__row > .row__flex-col-11{
-    width: calc((100% / 12) * 11 - 5px);
+    width: calc((100% / 12) * 11 - 4px);
 }
 
 .container__row > .row__flex-col-10{
-    width: calc((100% / 12) * 10 - 5px);
+    width: calc((100% / 12) * 10 - 4px);
 }
 
 .container__row > .row__flex-col-9{
-    width: calc((100% / 12) * 9 - 5px);
+    width: calc((100% / 12) * 9 - 4px);
 }
 
 .container__row > .row__flex-col-8{
-    width: calc((100% / 12) * 8 - 5px);
+    width: calc((100% / 12) * 8 - 4px);
 }
 
 .container__row > .row__flex-col-7{
-    width: calc((100% / 12) * 7 - 5px);
+    width: calc((100% / 12) * 7 - 4px);
 }
 
 .container__row > .row__flex-col-6{
-    width: calc((100% / 12) * 6 - 5px);
+    width: calc((100% / 12) * 6 - 4px);
 }
 
 .container__row > .row__flex-col-5{
-    width: calc((100% / 12) * 5 - 5px);
+    width: calc((100% / 12) * 5 - 4px);
 }
 
 .container__row > .row__flex-col-4{
-    width: calc((100% / 12) * 4 - 5px);
+    width: calc((100% / 12) * 4 - 4px);
 }
 
 .container__row > .row__flex-col-3{
-    width: calc((100% / 12) * 3 - 5px);
+    width: calc((100% / 12) * 3 - 4px);
 }
 
 .container__row > .row__flex-col-2{
-    width: calc((100% / 12) * 2 - 5px);
+    width: calc((100% / 12) * 2 - 4px);
 }
 
 .container__row > .row__flex-col-1{
-    width: calc((100% / 12) - 5px);
+    width: calc((100% / 12) - 4px);
+}
+
+.container__row--ha-center{
+    justify-content: center;
+}
+
+.row__flex-col--va-center{
+    align-self: center;
+}
+
+.row__flex-col--va-start{
+    align-self: start;
 }
 
 /* End of the Container CSS */
@@ -138,3 +150,74 @@ footer.footer{
 }
 
 /* End of the Footer CSS */
+
+/* Start of the Form CSS */
+
+form.form{
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.form--in-line{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.form--block{
+    flex-direction: column;
+}
+
+.form > .form__input-group{
+    margin: 10px 0px 10px 0px;
+}
+
+.form__input-group > input{
+    display: block;
+}
+
+.form__input-group > label{
+    display:block;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.form-input{
+    height: 32px;
+    padding: 4px;
+}
+
+.form-input--basic{
+    border-radius: 4px;
+    border-width: 0.5px;
+    border-color: darkgray;
+}
+
+/* End of the Form CSS */
+
+/* Start of the Margins CSS */
+
+.m-top-1{
+    margin-top: 10px;
+}
+
+.m-top-2{
+    margin-top: 20px;
+}
+
+.m-top-3{
+    margin-top: 30px;
+}
+
+.m-top-4{
+    margin-top: 40px;
+}
+
+.m-top-5{
+    margin-top: 50px;
+}
+
+/* End of the Margins CSS */
