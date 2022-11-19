@@ -24,7 +24,7 @@ If you want to import from CDN:
 
 ## Implementation
 
-Is strongly recommended the semantic HTML use to maintain the relation between the classes and the elements in the page.\
+Is strongly recommended the semantic HTML use to maintain the relation between the classes and the elements in the page.
 
 ```
     <body>
