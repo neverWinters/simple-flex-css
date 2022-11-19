@@ -4,6 +4,6 @@
 
 - Components
 
-    - [Form](form.md)
-    - [Layout](layout.md)
+    - [Form](./components/form.md)
+    - [Layout](./components/layout.md)
     
