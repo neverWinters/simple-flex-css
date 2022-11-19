@@ -1,9 +1,9 @@
 - Getting started
 
-    - [Quick start](getting_started/quick_start.md)
+    - [Quick start](quick_start.md)
 
 - Components
 
-    - [Form](components/form.md)
-    - [Layout](components/layout.md)
+    - [Form](form.md)
+    - [Layout](layout.md)
     
