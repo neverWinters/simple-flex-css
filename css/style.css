@@ -75,7 +75,7 @@ main.container{
 }
 
 .container__row > .row__flex-col{
-    margin: 0 2.5px;
+    margin: 0 2px;
 }
 
 .container__row > .row__flex-col-12{
@@ -126,15 +126,15 @@ main.container{
     width: calc((100% / 12) - 4px);
 }
 
-.container__row--ha-center{
+.container__row--jc-center{
     justify-content: center;
 }
 
-.row__flex-col--va-center{
+.row__flex-col--as-center{
     align-self: center;
 }
 
-.row__flex-col--va-start{
+.row__flex-col--as-start{
     align-self: start;
 }
 
@@ -171,7 +171,7 @@ form.form{
 }
 
 .form > .form__input-group{
-    margin: 10px 0px 10px 0px;
+    margin: 8px 0px 10px 0px;
 }
 
 .form__input-group > input{
