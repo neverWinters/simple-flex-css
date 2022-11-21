@@ -1,6 +1,6 @@
 ## Quick Start
 
-Simple Flex CSS is based in the "Mobile first" principle, wich consist in carrying out a layout development from mobile device screens to desktop device screens. Thinking in this, the ```min-width``` css property is used for the break points in the code.
+Simple Flex CSS is based in the "Mobile first" principle, wich consist on carrying out a layout development from mobile device screens to desktop device screens. Thinking in this, the ```min-width``` css property is used for the break points in the code.
 
 ## Import
 
